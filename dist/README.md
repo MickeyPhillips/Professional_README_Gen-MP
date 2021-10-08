@@ -1,7 +1,7 @@
 # README GEN
-- Badges
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt),[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0),[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## Description
-README description blah blah
+DESCRIPTION
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,25 +13,22 @@ README description blah blah
     
 
 ## Installation
-Step 1: 
+STEPS
 
 ## Usage
-instruction example screenshot
+SCREENSHOT
 
-## License(REMOVE THIS LATER)
+## License
+This application is covered under [![License,(https://img.shields.io/badge/License-Apache%202.0-blue.svg),(https://opensource.org/licenses/Apache-2.0),[![License,(https://img.shields.io/badge/License-Boost%201.0-lightblue.svg),(https://www.boost.org/LICENSE_1_0.txt),[![License: AGPL v3,(https://img.shields.io/badge/License-AGPL%20v3-blue.svg),(https://www.gnu.org/licenses/agpl-3.0),[![License: GPL v3,(https://img.shields.io/badge/License-GPLv3-blue.svg),(https://www.gnu.org/licenses/gpl-3.0).
 
 ## Contributing
 [Contributor Covenant](https://www.contributor-covenant.org/)
     
 
-## Tests
-example
-    
 
-## Questions
-- If questions reach me at: 
-  - [My Github](https://github.com/MickeyPhillips)
-  - [My Email](mailto:phillipsmickey41@gmail.com)
-    
 
+
+
+
+[Back To the Top](#description)
   
