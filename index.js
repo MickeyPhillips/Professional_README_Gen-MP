@@ -34,30 +34,12 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Steps for installation: (REQUIRED): ',
-        validate: installInput => {
-            if (installInput) {
-                return true;
-            }
-            else {
-                console.log("Enter Installation steps!");
-                return false;
-            }
-        }
+        message: 'Steps for installation: '
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use.\nInclude screenshots as needed.',
-        validate: usageInput => {
-            if (usageInput) {
-                return true;
-            }
-            else {
-                console.log("Provide instructions and examples for use!");
-                return false;
-            }
-        }
+        message: 'You can provide instructions and examples for use.\nInclude screenshots as needed.'
     },
     {
         type: 'confirm',
