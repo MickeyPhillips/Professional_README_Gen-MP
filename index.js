@@ -111,9 +111,10 @@ const questions = [
             {
                 name: "The Unlicense",
                 value: "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
-            }, 
-            { 
-                name: "No license"
+            },
+            {
+                name: "No license",
+                value: "none"
             }],
         when: ({licenseConfirm}) => {
             if(licenseConfirm) {

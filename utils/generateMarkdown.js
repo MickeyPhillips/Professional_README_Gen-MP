@@ -1,11 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
-  if (data.license === "No license" || !data.license) {
+  if (data.license == "none" || !data.license) {
     return '';
     
   }
-  return `${data.license}`;
+  else {
+    return `${data.license}`;
+  }
+  
 }
 
 // TODO: Create a function that returns the license link
@@ -20,12 +23,14 @@ function renderLicenseBadge(data) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
-  if(data.license === "No license" || !data.license) {
+  if(data.license == "none" || !data.license) {
     return '';
   }
-  
-  return `## License
+  else {
+    return `## License
 This application is covered under ${data.license}.`;
+  }
+    
 }
 // Optional prompt gen
 function generateTOC(data) {
@@ -74,7 +79,7 @@ function generateQuestions(data) {
   }
   else {
     return `## Questions
-- If questions reach me at: 
+If questions reach me at: 
   - [My Github](https://github.com/${data.github})
   - [My Email](mailto:${data.email})
     `;
