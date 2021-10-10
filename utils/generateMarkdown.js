@@ -33,6 +33,24 @@ This application is covered under ${data.license}.`;
     
 }
 // Optional prompt gen
+function generateInstall(data){
+  if (!data.installation) {
+    return '';
+  }
+  else {
+    return `## Installation
+${data.installation}`;
+  }
+}
+function generateUsage(data){
+  if (!data.usage) {
+    return '';
+  }
+  else {
+    return `## Usage
+${data.usage}`;
+  }
+}
 function generateTOC(data) {
   if(!data.tableOfContents) {
     return '';
@@ -94,11 +112,9 @@ ${data.description}
 
 ${generateTOC(data)}
 
-## Installation
-${data.installation}
+${generateInstall(data)}
 
-## Usage
-${data.usage}
+${generateUsage(data)}
 
 ${renderLicenseSection(data)}
 
